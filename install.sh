@@ -26,6 +26,8 @@ sudo pacman -S solaar
 #step 1 minecraft
 #go shelly => activer repo AUR et dl minecraft-launcher
 
+sudo pacman -S minecraft-launcher
+
 #step2 fabric & iris
 #go shelly installer (dans les repos non AUR) jre25-openjdk
 cd $XDG_DOWNLOAD_DIR
