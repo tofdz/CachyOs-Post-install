@@ -43,4 +43,4 @@ java -jar Iris-Installer-3.3.0.jar
 
 #automodpack
 cd $HOME/.minecraft/mods
-wget https://cdn.modrinth.com/data/k68glP2e/versions/ITgUN4An/automodpack-mc1.21.10-fabric-4.0.0.jar
+wget https://cdn.modrinth.com/data/k68glP2e/versions/BbU4anOZ/automodpack-mc1.21.9-fabric-4.0.0-beta44.jar
