@@ -1,0 +1,8 @@
+# Installer les paquets necessaires
+
+sudo pacman -S hplip python-pyqt5 python-reportlab cups cups-filters cups-pdf print-manager system-config-printer
+sudo systemctl enable --now cups.service
+
+
+# Configurer les drivers
+hp-setup -i
