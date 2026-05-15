@@ -1,0 +1,34 @@
+Tuto pour faire fonctionner noisetorch avec pipewire
+
+
+ouvrir un terminal
+
+
+systemctl --user edit pipewire-pulse.service
+
+
+ça va ouvrir un fichier de conf :
+
+
+Juste en dessous des deux premieres lignes, tu colles le code suivant
+[Service]
+Environment="LADSPA_PATH=/tmp:/usr/lib64/ladspa:/usr/lib/ladspa:"
+
+
+
+
+
+
+
+tu fais control + O et tu valides avec entrée
+tu fais control + X
+
+
+ensuite tu redémarres le service pipewire :
+systemctl --user restart pipewire-pulse.service
+
+
+tu relances noisetorch, tu load
+
+
+Et tu n'oublies pas de selectionner le micro du systeme (l'icone haut parleur en bas a gauche, tu fais clic gauche  et tu selectionnes le micro noisetorch) et de choisir le micro sur teamspeak
